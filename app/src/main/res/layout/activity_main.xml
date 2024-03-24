@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#ffffff"
+    android:gravity="center"
+    >
+
+
+
+
+
+    <ImageView
+        android:id="@+id/animImg"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/app"
+        android:layout_gravity="center"
+        >
+
+    </ImageView>
+
+
+    <Button
+        android:id="@+id/animBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here"
+        android:textSize="35sp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#00E676"
+        >
+
+    </Button>
+
+
+
+
+
+
+
+</LinearLayout>
